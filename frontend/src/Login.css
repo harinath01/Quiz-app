@@ -1,0 +1,71 @@
+.login {
+  background-color: #eee;
+}
+.login-form {
+  margin: 135px auto;
+  width: 350px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+.paper {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+  margin-bottom: 35px;
+}
+.login-form > input {
+  margin: 15px 0;
+  width: 70%;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 2px solid rgb(175, 175, 175);
+  outline: none;
+  background-color: #eee;
+  font-size: medium;
+}
+.login-btn {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  width: 50%;
+  padding: 6px 0;
+  background-color: #3897f0;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  height: 35px;
+  font-weight: bold;
+  outline: none;
+}
+.sign-up {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  color: #262626;
+  padding: 20px 0;
+}
+
+.sign-up a {
+  color: #3897f0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error {
+  margin: 10px auto;
+  font-size: small;
+  color: red;
+  font-weight: 300;
+  font-style: italic;
+}

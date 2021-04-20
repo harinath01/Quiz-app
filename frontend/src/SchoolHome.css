@@ -1,0 +1,21 @@
+.title-bar{
+    margin-top: 15px;
+    margin-left:20px;
+    display:flex;
+    align-items :center;
+    justify-content:space-between;
+    color:#999999;
+}
+.btn-create{
+    font-size:medium;
+    color:#0066ff ;
+    padding:4px 18px;
+    border:2px solid #039ee0dc ;
+    border-radius: 12px;
+    background-color: transparent;
+    margin-right: 28px;
+}
+.btn-create:hover{
+    background-color: #039ee0dc;
+    color:white;
+}
